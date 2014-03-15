@@ -1,7 +1,8 @@
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Iceland', sans-serif;
 	color: #faf3bc;
-	background: #220600 url('img/bg-texture.jpg') repeat;
+	background-color: #421640;
+	font-size: 1.3em;
 }
 
 a {
@@ -31,7 +32,7 @@ h3 {
 	padding: 15px 30px;
 	margin: 40px 0;
 	color: #faf3bc;
-	background: #4fb69f url('img/texture.png') no-repeat right top;
+	background-color: #4fb69f;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -39,7 +40,7 @@ h3 {
 }
 
 btn:hover {
-	background-color: #4cc4a7;
+	background-color: red;
 }
 
 
@@ -48,7 +49,7 @@ btn:hover {
 	margin: 50px 0;
 	color: #faf3bc;
 	font-size: .75em;
-	background: #b22316 url('texture.png') no-repeat right bottom;
+	background-color: #b22316;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -57,18 +58,18 @@ btn:hover {
 
 .btn-small:hover {
 	
-	background-color: #c62718;
+	background-color: green;
 }
 
 .submit-btn {
 	padding: 10px 25px;
 	margin: 20px 0 50px 0;
 	color: #faf3bc;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Iceland', sans-serif;
 	border: 0;
 	font-weight: 100;
 	font-size: .75em;
-	background: #b22316 url('texture.png') no-repeat right top;;
+	background-color: #b22316;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -91,11 +92,11 @@ ul.nav li.last {
 	margin: 0;
 	padding: 10px 25px;
 	color: #faf3bc;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Iceland', sans-serif;
 	border: 0;
 	font-weight: 100;
 	font-size: .75em;
-	background: #b22316 url('texture.png') no-repeat right top;;
+	background-color: #b22316;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -103,7 +104,7 @@ ul.nav li.last {
 }
 
 ul.nav li.last:hover {
-		background-color: #c62718;
+	background-color: orange;
 }
 
 ul.nav li a {
@@ -113,21 +114,19 @@ ul.nav li a {
 }
 
 #intro {
-	margin: 50px 0 75px 0;
+	margin: 50px 0 55px 0;
 }
 
-#new-cupcakes img {
+#jokes-of-the-week img {
 	border: 8px solid #faf3bc;
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 160px;
 }
 
-#popular-cupcakes img {
+#cool-stuff img {
 	border: 8px solid #faf3bc;
+	margin: 50px 0 0 50px ;
 }
 
-#featured-cupcake img {
-	border: 8px solid #faf3bc;
-}
 
 #contact span{
 	color: #b22316;
@@ -135,8 +134,8 @@ ul.nav li a {
 }
 
 #copyright {
-	border-top: 8px solid #2a0400;
+	border-top: 27px solid #2a0400;
 	padding: 10px 0;
-	margin: 15px 0;
+	margin: 5px 0;
 	text-align: center;
 }
